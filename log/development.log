@@ -1,0 +1,94 @@
+  [1m[35m (84.3ms)[0m  [1m[35mCREATE DATABASE "roomiconnect_development" ENCODING = 'unicode'[0m
+  [1m[35m (56.2ms)[0m  [1m[35mCREATE DATABASE "roomiconnect_test" ENCODING = 'unicode'[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-09-29 09:24:38.159057"], ["updated_at", "2023-09-29 09:24:38.159057"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-09-29 14:54:51 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DashboardController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1023)
+  Rendered layout layouts/application.html.erb (Duration: 484.5ms | Allocations: 192500)
+Completed 200 OK in 503ms (Views: 488.8ms | ActiveRecord: 0.0ms | Allocations: 199148)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/border.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-6.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-8.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-37.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-36.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-28.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-23.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-26.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/icon-15.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-30.svg"):
+  
