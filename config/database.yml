@@ -25,4 +25,4 @@ production:
   pool: 5
   host: localhost
   username: postgres
-  password: <%= ENV["RAILS_DATABASE_PASSWORD"] %>
+  password: postgres
