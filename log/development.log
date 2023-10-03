@@ -246,3 +246,177 @@ ActionController::RoutingError (No route matches [GET] "/assets/vector-30.svg"):
   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6688594638658517760)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6688594638658517760)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-10-03 15:56:14 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DashboardController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 915)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3921)
+Completed 200 OK in 25ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 8051)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/border.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-6.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-8.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-37.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-36.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-28.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-23.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-26.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/icon-15.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-30.svg"):
+  
+Started GET "/" for ::1 at 2023-10-03 15:57:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DashboardController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 915)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 3960)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 8089)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-37.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-23.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/border.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-28.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-26.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-36.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-8.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/line-50-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-3.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-5.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/union-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-4.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-2.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/subtract-6.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/icon-15.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vector-30.svg"):
+  
